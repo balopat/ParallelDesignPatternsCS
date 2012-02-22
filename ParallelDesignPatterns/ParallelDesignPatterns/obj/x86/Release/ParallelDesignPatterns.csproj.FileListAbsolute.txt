@@ -1,0 +1,6 @@
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\obj\x86\Release\ResolveAssemblyReference.cache
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.exe
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.pdb
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\nunit.framework.dll
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\obj\x86\Release\ParallelDesignPatterns.exe
+C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\obj\x86\Release\ParallelDesignPatterns.pdb
