@@ -1,6 +1,6 @@
 # Introduction 
 
-This is the Java version of a Test Driven Practice Field to demonstrate some of the ideas in the Patterns for Parallel Programming book. 
+This is the C# version of a Test Driven Practice Field to demonstrate some of the ideas in the Patterns for Parallel Programming book. 
 
 The [Patterns for Parallel Programming book](http://www.amazon.com/Patterns-Parallel-Programming-Timothy-Mattson/dp/0321228111)
  offers the power of design patterns to help tackling the complexity in the design process. It describes four “design spaces”:
