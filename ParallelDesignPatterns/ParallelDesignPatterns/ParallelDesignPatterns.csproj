@@ -67,7 +67,6 @@
   <ItemGroup>
     <Compile Include="AbstractDividAndConquer.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="MinFinderProblem.cs" />
     <Compile Include="MinFinderTest.cs" />
     <Compile Include="MinimumFinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

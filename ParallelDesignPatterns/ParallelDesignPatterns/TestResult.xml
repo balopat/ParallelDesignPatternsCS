@@ -1,23 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.exe" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-22" time="15:45:44">
+<test-results name="C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.exe" total="5" errors="5" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-26" time="20:20:33">
   <environment nunit-version="2.6.0.12017" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns" machine-name="BALOPAT-HP" user="balopat" user-domain="balopat-hp" />
   <culture-info current-culture="en-GB" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.exe" executed="True" result="Success" success="True" time="0.925" asserts="0">
+  <test-suite type="Assembly" name="C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\bin\Release\ParallelDesignPatterns.exe" executed="True" result="Failure" success="False" time="0.105" asserts="0">
     <results>
-      <test-suite type="Namespace" name="ParallelDesignPatterns" executed="True" result="Success" success="True" time="0.916" asserts="0">
+      <test-suite type="Namespace" name="ParallelDesignPatterns" executed="True" result="Failure" success="False" time="0.097" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="MinFinderTest" executed="True" result="Success" success="True" time="0.916" asserts="0">
+          <test-suite type="TestFixture" name="MinFinderTest" executed="True" result="Failure" success="False" time="0.096" asserts="0">
             <results>
-              <test-case name="ParallelDesignPatterns.MinFinderTest.givenNegFunctionAndIntervalFromMinus4To10ShouldResultInMinus10" executed="True" result="Success" success="True" time="0.075" asserts="1" />
-              <test-case name="ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFrom2To5ShouldResultIn4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-              <test-case name="ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFromMinus4To10ShouldResultIn0" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-              <test-case name="ParallelDesignPatterns.MinFinderTest.shouldFinishInTime" executed="True" result="Success" success="True" time="0.804" asserts="1">
+              <test-case name="ParallelDesignPatterns.MinFinderTest.givenNegFunctionAndIntervalFromMinus4To10ShouldResultInMinus10" executed="True" result="Error" success="False" time="0.015" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at ParallelDesignPatterns.MinimumFinder.findMinimum(Int32 p, Int32 p_2) in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinimumFinder.cs:line 19
+at ParallelDesignPatterns.MinFinderTest.givenNegFunctionAndIntervalFromMinus4To10ShouldResultInMinus10() in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinFinderTest.cs:line 40
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFrom2To5ShouldResultIn4" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at ParallelDesignPatterns.MinimumFinder.findMinimum(Int32 p, Int32 p_2) in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinimumFinder.cs:line 19
+at ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFrom2To5ShouldResultIn4() in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinFinderTest.cs:line 28
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFromMinus4To10ShouldResultIn0" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at ParallelDesignPatterns.MinimumFinder.findMinimum(Int32 p, Int32 p_2) in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinimumFinder.cs:line 19
+at ParallelDesignPatterns.MinFinderTest.givenSqrFunctionAndIntervalFromMinus4To10ShouldResultIn0() in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinFinderTest.cs:line 34
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="ParallelDesignPatterns.MinFinderTest.shouldFinishInTime" executed="True" result="Error" success="False" time="0.003" asserts="0">
                 <properties>
                   <property name="Timeout" value="1000" />
                 </properties>
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at ParallelDesignPatterns.MinimumFinder.findMinimum(Int32 p, Int32 p_2) in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinimumFinder.cs:line 19
+at ParallelDesignPatterns.MinFinderTest.shouldFinishInTime() in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinFinderTest.cs:line 46
+]]></stack-trace>
+                </failure>
               </test-case>
-              <test-case name="ParallelDesignPatterns.MinFinderTest.shouldReturnTheFunctionValueForOneElementLongInterval" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+              <test-case name="ParallelDesignPatterns.MinFinderTest.shouldReturnTheFunctionValueForOneElementLongInterval" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                  <stack-trace><![CDATA[at ParallelDesignPatterns.MinimumFinder.findMinimum(Int32 p, Int32 p_2) in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinimumFinder.cs:line 19
+at ParallelDesignPatterns.MinFinderTest.shouldReturnTheFunctionValueForOneElementLongInterval() in C:\dev\proj\ParallelDesignPatterns-CS\ParallelDesignPatterns\ParallelDesignPatterns\MinFinderTest.cs:line 22
+]]></stack-trace>
+                </failure>
+              </test-case>
             </results>
           </test-suite>
         </results>
