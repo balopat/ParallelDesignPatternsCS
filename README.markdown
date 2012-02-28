@@ -1,6 +1,6 @@
 # Introduction 
 
-This is the Java version of a Test Driven Practice Field to demonstrate some of the ideas in the Patterns for Parallel Programming book. 
+This is the C# version of a Test Driven Practice Field to demonstrate some of the ideas in the Patterns for Parallel Programming book. 
 
 The [Patterns for Parallel Programming book](http://www.amazon.com/Patterns-Parallel-Programming-Timothy-Mattson/dp/0321228111)
  offers the power of design patterns to help tackling the complexity in the design process. It describes four “design spaces”:
@@ -14,12 +14,12 @@ From the four design spaces the current focus is on the Finding Concurrency and 
 
 # The First Excercise
 
-**Part I.** Make the [MinFinderTest](src/test/java/org/lscc/minfinder/MinValueFinderTest.java) green! 
+**Part I.** Make the [MinFinderTest](https://github.com/balopat/ParallelDesignPatternsCS/blob/master/ParallelDesignPatterns/ParallelDesignPatterns/MinFinderTest.cs) green! 
 
 1. *Solve the functional tests sequentially*! The last test is using ```@Test(timeout=x)```! Don't bother with it yet! 
 1. Now is the time: Make the timing test PASS by *porting your application to parallel* 
     * Identify/Create classes which you will use for the Problem and Solution generics. (this refers to Finding Concurrency, how will you decompose your tasks and data?)
-    * use the DivideAndConquer pattern (make your MinValueFinder class extend the [DivideAndConquer abstract class](src/main/java/org/lscc/parallelpatterns/divideandconquer/DivideAndConquer.java))
+    * use the DivideAndConquer pattern (make your MinValueFinder class extend the [AbstractDivideAndConquer abstract class](https://github.com/balopat/ParallelDesignPatternsCS/blob/master/ParallelDesignPatterns/ParallelDesignPatterns/AbstractDividAndConquer.cs))
 
 **Part II.** Play with it! 
 
